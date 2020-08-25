@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "fases_de_la_evaluacion_del_desempeno_laboral",
+    "title": "1. Fases de la evaluación del desempeño laboral",
+    "breadcrumb": ["Inicio","tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "fases_de_la_evaluacion_del_desempeno_laboral",
+        "title": "1.1 Concertación de compromisos laborales",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "fases_de_la_evaluacion_del_desempeno_laboral",
+        "title": "1.2 Seguimiento",
+        "anchor": "12"
+      }
+      ,
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "fases_de_la_evaluacion_del_desempeno_laboral",
+        "title": "1.3 Evaluaciones parciales",
+        "anchor": "13"
+      }
+      ,
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "fases_de_la_evaluacion_del_desempeno_laboral",
+        "title": "1.4 Calificación definitiva",
+        "anchor": "14"
+      }
+    ]
+   } 
+]
